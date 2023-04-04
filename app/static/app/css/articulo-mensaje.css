@@ -1,0 +1,138 @@
+:root
+{
+
+      /* Colores Principales */
+
+      --gris-principal: #DADADA;
+      --negro-apple: #000000a3;
+      --gris-info: #878787;
+     
+
+      /* Bordes */      
+
+      --border-radio-54: 54px;
+      --border-radio-25:25px;
+
+      /* Sombras */
+
+      --sombra-normal:1px 1px 3px 1px rgba(128, 128, 128, 0.186);
+
+}
+
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+html
+{
+      font-size: 62,5px;
+}
+
+
+
+
+#inicio
+{
+    width: 23rem;
+    height: 39rem;
+    border-radius: var(--border-radio-25);
+    box-shadow: var(--sombra-normal);
+    background-color: var(--gris-principal);
+    position: relative;
+}
+
+#img-profile
+{
+    background: url('/static/app/img/astro.JPG') no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #DADADA;
+    width: 7rem;
+    height: 7rem;
+    box-shadow: var(--sombra-normal);
+    border-radius: 8rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+#div-contactos
+{
+    border-radius: var(--border-radio-25);
+    
+    
+}
+
+#div-contactos .bn-llamada , .bn-contacto
+{
+    background-color: transparent;
+    border: 0 ;
+}
+
+
+ .bn-llamada
+{
+    background: url('/static/app/img-sistema/llamada.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 0.7rem;
+
+}
+
+.bn-contacto
+{
+    background: url('/static/app/img-sistema/contacto.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+
+#articulo
+{
+
+}
+  
+
+#div-contacto
+{
+    background-color: #80808001;
+    border-radius: var(--border-radio-25);
+    border: #8787873a solid 1px;
+    height: 5rem;
+    display: flex;
+}
+
+#div-contacto .profile
+{
+    background-color: aqua;
+    border-radius: 10rem    ;
+    width: 4rem;
+    height: 4rem;
+}
+
+#div-contacto .info
+{
+    height: 3rem;
+    /* background-color: #878787; */
+    margin-top: 0.4rem;
+    margin-left: 0.7rem;
+}
+
+#div-hora
+{
+    bottom: 0.5rem;
+    height: 1rem;
+    width: 3rem;
+    right: 2.3rem;
+}
