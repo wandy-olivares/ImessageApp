@@ -39,7 +39,7 @@ html
 
 
 
-#inicio
+#articulo-mensaje
 {
     width: 23rem;
     height: 39rem;
@@ -98,10 +98,6 @@ html
 }
 
 
-#articulo
-{
-
-}
   
 
 #div-contacto
@@ -135,4 +131,37 @@ html
     height: 1rem;
     width: 3rem;
     right: 2.3rem;
+}
+
+
+
+
+
+/* Stilos de configuracion */
+
+
+#feed
+{
+    top: 1.4rem;
+    left: 2rem;
+    width: 23rem;
+    height: 39rem;
+    border-radius: var(--border-radio-25);
+    box-shadow: var(--sombra-normal);
+    background-color: var(--gris-principal);
+    position: relative;
+}
+
+
+
+#configuracion
+{
+    top: 1.4rem;
+    right: 2rem;
+    width: 23rem;
+    height: 39rem;
+    border-radius: var(--border-radio-25);
+    box-shadow: var(--sombra-normal);
+    background-color: var(--gris-principal);
+    position: relative;
 }
